@@ -25,9 +25,9 @@ app.use((req,res,next)=>{
 
 
 //Another Example of middleware when site is under maintenance
-app.use((req,res,next)=>{
+/* app.use((req,res,next)=>{
     res.render('maintenance.hbs');
-});
+}); */
 
 
 
